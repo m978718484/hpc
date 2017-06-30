@@ -1,0 +1,542 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0043)http://hpc.csu.edu.cn/graduate/Default.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	人才培养_中南大学高性能计算平台
+</title><link href="{% static 'hpc/Styles.css' %}" type="text/css" rel="stylesheet"></head>
+<body background="{% static 'hpc/bg_hui.gif' %}">
+    <form name="aspnetForm" method="post" action="http://hpc.csu.edu.cn/graduate/Default.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4ABD55FF">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+</div>
+    <div>
+        <table width="1000px" border="0" cellpadding="0" cellspacing="0" align="center">
+            <tbody><tr>
+                <td>
+                    
+<table width="1000" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td width="1000" height="140" "="">
+		    <img id="ctl00_WebUserControlTop1_Image1" src="{% static 'hpc/MainTitle.jpg' %}" style="border-width:0px;">
+        </td>
+	</tr>
+	</tbody></table>
+    
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="White" align="left">
+                    
+
+<table id="table203" height="20" cellspacing="0" cellpadding="0" width="1000px" border="0" align="Left">
+    <tbody><tr>
+        <td align="Left" valign="bottom">
+            <div class="navPanel" align="Left">
+                <div class="innerNavPanel" align="Left">
+                    <div class="buttons" align="Left" style="width:1000px; height: 30px; left: 0px;">
+                        <a id="WebUserControlMenu1_HypLink " href="../index.html">首页</a>   
+                        <a id="WebUserControlMenu1_HyperLink1 " href="../Overview/default.html">平台概况</a>
+                        <a id="WebUserControlMenu1_HyperLink4 " href="../News/default.html">公告新闻</a>
+                        <a id="WebUserControlMenu1_HyperLink5 " href="../Trends/default.html">业界动态</a>
+                        <a id="WebUserControlMenu1_HyperLink6 " href="../Projects/default.html">计算项目</a>
+                        <a id="WebUserControlMenu1_HyperLinkgraduate " href="../graduate/default.html">人才培养</a>
+                        <a id="WebUserControlMenu1_HyperLink9 " href="../Friend/default.html">相关链接</a>
+                        <a id="WebUserControlMenu1_HyperLink3 " href="../Services/default.html">服务指南</a>
+                        <a id="WebUserControlMenu1_HyperLinkReport " href="../statistics/default.html">统计报表</a>
+                        <a id="WebUserControlMenu1_HyperLink8 " href="../SourceDown/default.html">资源下载</a>
+                        <a id="WebUserControlMenu1_HyperLink7 " href="../Experience/default.html">经验交流</a>
+                        <a id="WebUserControlMenu1_HyperLink11 " href="../ModelApp/default.html">典型应用</a>
+                        <a id="WebUserControlMenu1_HyperLink10 " href="../faq/default.html">FAQ</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td height="20" align="Left" valign="bottom">
+            <img id="ctl00_WebUserControlMenu1_Image1" src="{% static 'hpc/bg22.gif' %}" style="width:1000px;border-width:0px;">
+        </td>
+    </tr>
+</tbody></table>
+
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" height="0">
+                    
+<table width="1000" border="0" cellpadding="0" cellspacing="0" align="center">
+	<tbody><tr>
+		<td valign="top" height="0">
+			<table border="0" width="100%" cellspacing="0" cellpadding="0" id="table154">
+				<tbody><tr>
+					<td width="192" valign="top" bgcolor="#F9F9F9">
+
+<div align="left">
+<table border="0" cellspacing="0" cellpadding="0" height="100%" id="table158" width="100%">
+<tbody><tr>
+<td height="60" align="center">
+
+<img border="0" src="{% static 'hpc/graduate.jpg' %}" width="140" height="49"></td>
+</tr>
+<tr>
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" id="table188" height="100%">
+
+        <tbody><tr> 
+          <td height="242" rowspan="3" align="center" valign="top" bgcolor="#F9F9F9">
+			<div id="leftpeixun">	
+			<table width="142" border="0" cellspacing="0" id="table189">
+		
+              	<tbody><tr>
+					<td width="140" height="28" align="center" valign="middle">
+					
+                                                                            </td>
+				</tr>
+				<tr>
+					<td align="center" valign="middle">
+					    &nbsp;</td>
+				</tr>                     
+            </tbody></table> 
+            </div>         </td>
+        </tr>
+        
+    </tbody></table></td>
+</tr>
+</tbody></table>
+</div>
+
+				  	</td>
+				  <td valign="top" bgcolor="#FFFFFF">
+					<table border="0" width="100%" cellspacing="0" cellpadding="0" id="table176">
+						
+						<tbody><tr>
+							<td align="center" valign="top">
+					<table border="0" width="100%" cellspacing="0" cellpadding="0" id="table190" bgcolor="#F4FBE1">
+						<tbody><tr>
+							<td align="left" height="28">
+					&nbsp;&nbsp;
+					您现在的位置：&nbsp;首页&nbsp;&gt;&gt;&nbsp;<span id="ctl00_ContentPlaceHolder1_Label1">人才培养</span>
+                                                        </td></tr>
+						</tbody></table>					</td></tr>
+											
+						<tr>
+							<td align="center" valign="top">
+							<table width="98%" border="0" id="table177">
+							  <tbody><tr>
+							    <td width="840px" align="left">
+								    
+
+<table style="width: 98%; background-color: #FFFFFF;" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td style="background-color: #B0CEEB; height: 32px;" align="left">
+                                            
+                                                    <div id="ctl00_ContentPlaceHolder1_WebUserControlSubjectDetail1_ListView1_itemPlaceholderContainer" style="">
+                                                         <table style="width: 100%; background-color: #FFFFFF" cellpadding="0" border="0" cellspacing="0">
+                                                         
+                                               <tbody><tr id="ctl00_ContentPlaceHolder1_WebUserControlSubjectDetail1_ListView1_ctrl0_Tr1">
+	<td id="ctl00_ContentPlaceHolder1_WebUserControlSubjectDetail1_ListView1_ctrl0_Td1">
+                                                      <table cellspacing="1" cellpadding="1" style="width: 100%">
+                                    
+                                <tbody><tr>
+                                    <td>
+                                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 随着我校建设国内一流、国际知名高水平大学的工作不断深入，中南大学所拥有的材料、矿业、机械、交通运输与土木工程等国家重点学科及学校的大部分理学、工学、医学学科对大型、密集、高性能计算的需求也在与日俱增，为此，我校构建了十万亿次高性能网格计算平台，面向全校提供高性能计算公共服务。计算平台的硬件环境位于国内高校前列，在2009年10月29日HPCChina2009会议上公布的“2009年中国高性能计算机性能TOP100”排行中，中南大学高性能网格计算平台凭借10214.40Gflops的双精度浮点运算理论峰值，8273.68Gflops的Linpack测试值和0.81的效率，获得国内高校排名第8，全国排第80名的成绩。<br>
+<br>
+<div align="center"><img alt="" src="{% static 'hpc/airview.gif' %}" width="650" height="347"></div>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在我校高性能计算研究和应用的不断推进过程中，高性能计算人才的培养也逐渐成为焦点。目前我国专门从事高性能计算研究的人才积累不如发达国家，跨学科高性能计算应用人才缺乏，持续加强高性能计算人才的培养刻不容缓。作为人才培养摇篮的高等学校，对于担负起高性能计算人才培养的重任责无旁贷。我们欢迎有志于从事高性能计算研究和应用的优秀本科生报考我们的硕士研究生，进行高性能计算集群的系统结构、高速计算网络、协议与I/O技术、负载均衡技术、高性能计算的编程环境与开发工具、作业调度和管理以及并行计算编程和并行算法等方面的学术研究和技术开发。<br>
+</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 中南大学“985”项目“高性能网格计算平台”的项目负责人和高性能计算研究的学术带头人为黄烟波教授。报考中南大学信息科学与工程学院硕士研究生的学生均可与我们联系。<br>
+<br>
+地址：湖南省长沙市岳麓区中南大学新校区外语网络楼3楼<br>
+研究生导师和高性能计算中心工作人员联系方式：<br>
+<br>
+<a href="http://hpc.csu.edu.cn/Overview/Default.aspx?SubjectID=602">黄烟波&nbsp;&nbsp; 教&nbsp;&nbsp;&nbsp; 授</a>：（信息与网络中心总工程师）：Email：<a href="mailto:ybhuang@csu.edu.cn">ybhuang@csu.edu.cn</a>，Tel. 88879598<br>
+<a href="http://hpc.csu.edu.cn/Overview/Default.aspx?SubjectID=603">陈&nbsp;&nbsp;&nbsp; 军&nbsp;&nbsp; 副教授</a>：（信息与网络中心副主任）Email：<a href="mailto:chenjun@csu.edu.cn">chenjun@csu.edu.cn</a>，Tel. 88830428<br>
+<a href="http://hpc.csu.edu.cn/Overview/Default.aspx?SubjectID=604" target="_blank">刘中宇&nbsp;&nbsp; 副教授</a>：（信息与网络中心副主任）Email：<a href="mailto:zyliu@csu.edu.cn">zyliu@csu.edu.cn</a>，Tel. 88660093<br>
+邹&nbsp;&nbsp;&nbsp; 有&nbsp;&nbsp; 实验师：（高性能计算中心主任）&nbsp; Email：<a href="mailto:zouyou@csu.edu.cn">zouyou@csu.edu.cn</a>，Tel. 88877295<br>
+吴&nbsp;&nbsp;&nbsp; 青&nbsp;&nbsp; 讲&nbsp;&nbsp;&nbsp;&nbsp;师：&nbsp;&nbsp;&nbsp;Email：wuqing<a href="mailto:zouyou@csu.edu.cn">@csu.edu.cn</a>，Tel. 88877295<br>
+<br>
+<div align="center"><img border="0" alt="" src="{% static 'hpc/aerial view' %}.jpg" width="650" longdesc="" height="347"><br>
+</div>
+<div align="center">
+<div align="center"><br>
+</div>
+<div align="center">&nbsp;一、全日制在校学生情况
+<table border="1" cellspacing="1" bordercolor="#006633" cellpadding="2" width="540" align="center">
+    <tbody>
+        <tr>
+            <td valign="top" width="345">
+            <p>博士研究生</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">5143人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>硕士研究生</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">14085人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>本　科　生</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">33259人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>专　科　生</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">202人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>留　学　生</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">895人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>合　　　计</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">53584人</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+二、教职工情况
+<table border="1" cellspacing="1" bordercolor="#006633" cellpadding="2" width="540" align="center">
+    <tbody>
+        <tr>
+            <td valign="top" width="345">
+            <p>　　在职教职工数（附属医院员工数）</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">14921人（8367人）</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>　　其中：中国科学院院士</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">3人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>　　　　　中国工程院院士</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">14人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>　　　　　博士生导师</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">805人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>　　　　　专任教师</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">3116人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>　　　　　正高级专业技术职称</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">1499人</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="345">
+            <p>　　　　　副高级专业技术职称</p>
+            </td>
+            <td valign="top" width="195">
+            <p align="right">2515人</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+三、学科、科研建设情况
+<table border="1" cellspacing="1" bordercolor="#006633" cellpadding="2" width="540" align="center">
+    <tbody>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　一级学科国家重点学科</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">6个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　二级学科国家重点学科</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">12个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　国家重点（培育）学科</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">1个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　博士学位授予权学科一级学科</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">33个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　硕士学位授予权学科一级学科</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">58个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　硕士专业学位授予权</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">19种</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　博士后科研流动站</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">24个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　本科专业</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">86个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　国家重点实验室</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">3个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　国家工程实验室</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">2个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　国家工程研究中心</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">2个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　国防科技重点实验室</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">1个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　国家级人才培养基地</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">3个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　国家精品课程</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">57门</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　国家实验教学示范中心</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">6个</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　省、部级重点学科</p>
+            </td>
+            <td valign="top" width="189">
+            <p align="right">39个</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+四、办学条件
+<table border="1" cellspacing="1" bordercolor="#006633" cellpadding="2" width="540" align="center">
+    <tbody>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　学校占地面积<br>
+            （附属医院占地面积）</p>
+            </td>
+            <td width="189">
+            <p align="right">3863071平方米<br>
+            （514685平方米）</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="334">
+            <p>　　建筑面积<br>
+            （附属医院建筑面积）</p>
+            </td>
+            <td width="189">
+            <p align="right">2615163平方米<br>
+            （665759平方米）</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="334">
+            <p>　　图书藏量</p>
+            </td>
+            <td width="189">
+            <p align="right">454.24万册</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+注：以上数据来自于年报教育部《2011/2012学年初高等教育基层报表》，数据截止时间为2011年9月1日。</div>
+</div>
+</div>
+
+                                    </td>
+                                </tr>
+                                    </tbody></table>
+                                                    </td>
+</tr>
+
+                                                   
+                                                
+                                      
+                                                     </tbody></table>
+                                                     
+                                                    </div>
+                                                    <span id="ctl00_ContentPlaceHolder1_WebUserControlSubjectDetail1_ListView1_DataPager1"></span>
+                                                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #FFFFFF" align="center">
+                            
+                        </td>
+                    </tr>
+                </tbody></table>
+                                  </td>
+						      </tr>
+							  </tbody></table>
+					  		</td></tr>
+											
+						<tr>
+							<td align="center" valign="top">
+							    &nbsp;</td></tr>
+					</tbody></table>					
+					</td>
+				</tr>
+			</tbody></table>		</td>
+	</tr>
+	
+</tbody></table>
+
+                </td>
+            </tr>
+            <tr>
+                <td height="80" bordercolor="#FFFFFF" bgcolor="#FFFFFF" valign="top">
+                    
+
+<table width="1000px" border="0" cellpadding="0" cellspacing="0" align="center">
+	<tbody><tr>
+		<td height="80" bordercolor="#FFFFFF" bgcolor="#FFFFFF" valign="top">
+			<div align="center">
+            <hr>
+            <table cellspacing="0" cellpadding="0" width="700px" border="0" id="table144">
+					<tbody><tr>
+						<td height="18">
+						<div align="center">
+								<font color="#333333" style="font-size: 9pt">Copyright©2009 High Performance Computing Center of 
+							CSU All Rights Reserved</font></div>						</td>
+					</tr>
+					<tr>
+						<td height="18">
+					
+						<font color="#333333" style="font-size: 9pt">电话：0731-88877295&nbsp; 邮件：hpc@csu.edu.cn(使用中的问题请截图并准确描述后通过电子邮件咨询)</font></td>
+					</tr>
+					<tr>
+						<td height="18">
+						<div align="center">
+						
+							<font color="#333333" style="font-size: 9pt">地址：湖南省长沙市岳麓区中南大学新校区外语网络楼3楼 邮编：410083&nbsp;
+                            <a id="ctl00_WebUserControlBottom1_HyperLinkMainPageCilck" href="http://hpc.csu.edu.cn/Statistics/StatisticsClickDate.aspx">主页访问：1672345</a>
+                            </font></div>						</td>
+					</tr>
+			  </tbody></table>
+	  </div></td>
+	</tr>
+</tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div>
+    </div>
+    </form>
+
+
+</body></html>
