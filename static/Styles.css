@@ -1,0 +1,200 @@
+BODY {
+	FONT-SIZE: 12px; LINE-HEIGHT:100%; margin-top: 0; margin-bottom: 0 ; FONT-FAMILY: "宋体", "MS Shell Dlg"
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 200%; margin-top: 0; margin-bottom: 0; FONT-FAMILY: "宋体", "MS Shell Dlg"
+}
+INPUT {
+	FONT-SIZE: 12px; FONT-FAMILY: "Tahoma", "MS Shell Dlg"
+}
+SELECT {
+	FONT-SIZE: 12px; FONT-FAMILY: "MS Shell Dlg"
+}
+FORM {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; FONT-FAMILY: "Tahoma", "MS Shell Dlg"
+}
+TEXTAREA {
+	FONT-SIZE: 12px; FONT-FAMILY: "Tahoma", "MS Shell Dlg"
+}
+HR {
+	COLOR: #000000; HEIGHT: 1px
+}
+.small {
+	FONT-SIZE: 12px; FONT-FAMILY: "Tahoma", "MS Shell Dlg"
+}
+.copy {
+	FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: "Tahoma", "MS Shell Dlg"
+}
+.title14 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #9100000; LINE-HEIGHT: 22px; FONT-FAMILY: "宋体"
+}
+.bbtitle {
+	FONT-WEIGHT: bolder; FONT-SIZE: 16px; FONT-FAMILY: "Tahoma", "MS Shell Dlg"
+}
+.hand {
+	CURSOR: hand
+}
+.date {
+	FONT-SIZE: 5px; FONT-FAMILY: "Tahoma", "MS Shell Dlg"
+}
+A {
+FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+
+A:visited {
+FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A:link {
+FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+.xx {
+	FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 20px; FONT-STYLE: normal; LETTER-SPACING: 0.05em
+}
+.top01 {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 18px; LETTER-SPACING: 0px
+}
+.pp {
+	FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 30px; LETTER-SPACING: 0.1em
+}
+.help {
+	FONT-SIZE: 12px; COLOR: #333333; LETTER-SPACING: 0.1em
+}
+.FONT {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: "宋体"
+}
+.top02 {
+	FONT-SIZE: 12px; COLOR: #ffffff; LETTER-SPACING: 0.1em
+}
+.tj {
+	FONT-SIZE: 12px; LINE-HEIGHT: 17px
+}
+.lp {
+	FONT-SIZE: 12px; LETTER-SPACING: 0px
+}
+.mail {
+	BORDER-RIGHT: #006600; BORDER-TOP: #006600; FONT-SIZE: 12px; BORDER-LEFT: #006600; BORDER-BOTTOM: #006600; HEIGHT: 13px
+}
+.to2Space{
+text-indent: 12px
+}
+.navPanel {
+	BORDER-TOP: 1px solid #dad6cb; BACKGROUND: #e5e2de url('base/bg_mid.png') repeat-x left top; LINE-HEIGHT: 100%; BORDER-BOTTOM: 1px solid #cbc6bc; 
+}
+.innerNavPanel {
+	MARGIN: 0px auto; WIDTH: 990px
+}
+.buttonWrapper {
+	BORDER-RIGHT: 1px solid #dad6cb; BORDER-TOP: 1px solid #dad6cb; BACKGROUND: #f2f0ee url(base/bg_btn_bg.png); BORDER-LEFT: 1px none #dad6cb; BORDER-BOTTOM: 1px solid #dad6cb; 
+}
+.buttons {
+	OVERFLOW: hidden; BORDER-LEFT: #dad6cb 1px solid; WIDTH: 99%; LINE-HEIGHT: 200%; WHITE-SPACE: nowrap;
+	font-size:12px;
+}
+.buttons A:link {
+	BORDER-RIGHT: 1px solid #dad6cb; PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; BACKGROUND: transparent url(base/bg_btn_bg.png); FLOAT: left; PADDING-BOTTOM: 4px; BORDER-LEFT: 1px solid white; COLOR: #000000; PADDING-TOP: 4px; TEXT-DECORATION: none
+	font-size:12px
+}
+.buttons A:active {
+	BORDER-RIGHT: 1px solid #dad6cb; PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; BACKGROUND: transparent url(base/bg_btn_active.png); FLOAT: left; PADDING-BOTTOM: 4px; BORDER-LEFT: 1px solid white; COLOR: #000000; PADDING-TOP: 4px; TEXT-DECORATION: none
+	font-size:12px
+}
+.buttons A:visited {
+	BORDER-RIGHT: 1px solid #dad6cb; PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; BACKGROUND: transparent url(base/bg_btn_bg.png); FLOAT: left; PADDING-BOTTOM: 4px; BORDER-LEFT: 1px solid white; COLOR: #000000; PADDING-TOP: 4px; TEXT-DECORATION: none
+}
+.buttons A:hover {
+	BACKGROUND: #f4fadf url('base/bg_btn_hoverY.png') repeat-x left top; COLOR: #FFFFFF
+}
+.buttons A:highten{
+    BACKGROUND: transparent url('base/bg_btn_bg.png'); COLOR: #FF0000
+}
+
+.buttons-special {
+	FONT-WEIGHT: bold
+}
+
+.buttons .label {
+	PADDING-RIGHT: 12px; DISPLAY: block; PADDING-LEFT: 12px; FLOAT: left; PADDING-BOTTOM: 4px; OVERFLOW: hidden; COLOR: #645a44; PADDING-TOP: 4px
+}
+.buttons .label A:link {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: none; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: auto; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+.buttons .label A:active {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: none; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: auto; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+.buttons .label A:visited {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: none; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: auto; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+.buttons .label A:hover {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: none; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: auto; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+ HTML .buttons IMG {
+	FLOAT: left; MARGIN: 4px 4px 4px 4px
+}
+.shadowStrip {
+	FONT-SIZE: 1%; BACKGROUND: url('base/bg_shadow.png'); LINE-HEIGHT: 1%; HEIGHT: 4px
+}
+
+
+#leftpeixun LI {
+	DISPLAY: block; BORDER-LEFT-WIDTH: 4px; BACKGROUND-IMAGE: url(base/menuleft.gif); TEXT-INDENT: 26px; LINE-HEIGHT: 27px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-REPEAT: repeat-y; LIST-STYLE-TYPE: none; HEIGHT: 27px; BACKGROUND-COLOR: #ececdd; TEXT-ALIGN: left
+}
+#leftpeixun A {
+	DISPLAY: block; BORDER-LEFT-WIDTH: 4px; BACKGROUND-IMAGE: url(base/menuleft.gif); LINE-HEIGHT: 27px; BACKGROUND-REPEAT: repeat-y; LIST-STYLE-TYPE: none; HEIGHT: 27px; BACKGROUND-COLOR: #ececdd
+}
+#leftpeixun UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; TEXT-INDENT: 12px; PADDING-TOP: 0px
+}
+#leftpeixun A:hover {
+	DISPLAY: block; BORDER-LEFT-WIDTH: 4px; BACKGROUND-IMAGE: url(base/menulefthover.gif); LINE-HEIGHT: 27px; BACKGROUND-REPEAT: repeat-y; LIST-STYLE-TYPE: none; HEIGHT: 27px; BACKGROUND-COLOR: #fff
+}
+#leftziyuan LI {
+	DISPLAY: block; BORDER-LEFT-WIDTH: 4px; BACKGROUND-IMAGE: url(base/menuleft.gif); TEXT-INDENT: 26px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-REPEAT: repeat-y; LIST-STYLE-TYPE: none;  BACKGROUND-COLOR: #ececdd; TEXT-ALIGN: left
+}
+#leftziyuan A {
+	DISPLAY: block; BORDER-LEFT-WIDTH: 4px; BACKGROUND-IMAGE: url(base/menuleft.gif); BACKGROUND-REPEAT: repeat-y; LIST-STYLE-TYPE: none;  BACKGROUND-COLOR: #ececdd
+}
+#leftziyuan UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; TEXT-INDENT: 12px; PADDING-TOP: 0px
+}
+#leftziyuan A:hover {
+	DISPLAY: block; BORDER-LEFT-WIDTH: 4px; BACKGROUND-IMAGE: url(base/menulefthover1.gif);  BACKGROUND-REPEAT: repeat-y; LIST-STYLE-TYPE: none; BACKGROUND-COLOR: #fff
+}
+.nav_sub {
+	LINE-HEIGHT: 21px; HEIGHT: 25px; TEXT-ALIGN: left; width:1000px;
+
+}
+.nav_sub_new{
+	LINE-HEIGHT: 21px;  TEXT-ALIGN: left; width:1000px;
+	margin-top:2px;
+	color:#000000;
+
+}
+.nav_sub_new ul li{
+display:block;
+	float:left;
+	width:60px;
+	height:21px;
+}
+.nav_sub_new ul li A{
+line-height:20px;
+  	color:#000000;
+	display:block;
+	float:left;
+	width:60px;
+	height:21px;
+	text-align:center;
+	overflow:visible;
+	width:100%;
+	
+}
+.nav_sub_new ul li A:hover{
+width:100%;
+overflow:visible;
+background-color:#DEB21B;
+}
